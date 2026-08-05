@@ -1,0 +1,31 @@
+{
+    "portal": {
+        "base_url": "https://www.fotocasa.es",
+        "operation": "alquiler",
+        "property_type": "viviendas",
+        "city": "miranda-de-ebro",
+        "zone": "todas-las-zonas"
+    },
+    "search": {
+        "result_count": 5,
+        "navigation_timeout_ms": 45000,
+        "element_timeout_ms": 15000,
+        "retries": 3,
+        "retry_delay_seconds": 5
+    },
+    "business_rules": {
+        "rent_highlight_threshold": 900,
+        "highlight_color_hex": "FFC7CE",
+        "currency": "EUR"
+    },
+    "output": {
+        "excel_path": "output/properties_result.xlsx",
+        "sheet_name": "Properties",
+        "log_path": "logs/execution.log"
+    },
+    "browser": {
+        "headless": true,
+        "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+        "locale": "es-ES"
+    }
+}

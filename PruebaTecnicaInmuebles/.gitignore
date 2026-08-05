@@ -1,0 +1,18 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build outputs
+bin/
+obj/
+
+# Salidas de la automatización (no versionar el Excel/logs generados)
+output/
+logs/
+
+#
+
+#
+el archivo excel se aloja aca /PropertyExtractor.ConsoleApp\bin\Debug\net8.0\output\properties_result.xlsx
+#
